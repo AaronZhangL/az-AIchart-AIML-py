@@ -6,4 +6,6 @@
 https://www.ibm.com/developerworks/cn/linux/l-django/
 sudo pip install jieba
 
+[Django start command]
+python manager.py runserver 0.0.0.0:3001
 </pre>
