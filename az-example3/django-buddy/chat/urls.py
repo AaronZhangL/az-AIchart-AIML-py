@@ -13,7 +13,11 @@
 # ------------------------------------------------------------
 
 # django.
-from django.conf.urls.defaults import *
+#Aaron.Z# start
+#from django.conf.urls.defaults import *
+from django.conf.urls import patterns, url, include
+#Aaron.Z# end 2016/01/29
+
 from django.core.paginator import Paginator, InvalidPage
 from django.views.generic import DetailView, ListView
 
